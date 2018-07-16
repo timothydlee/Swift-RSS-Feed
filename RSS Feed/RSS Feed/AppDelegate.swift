@@ -23,6 +23,13 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
         let mainViewController = MainViewController(collectionViewLayout: layout)
         
         window?.rootViewController = UINavigationController(rootViewController: mainViewController)
+        
+        UINavigationBar.appearance().backgroundColor = UIColor.red
+        UINavigationBar.appearance().titleTextAttributes = [
+            NSAttributedStringKey.foregroundColor: UIColor.white,
+            NSAttributedStringKey.font: UIFont.boldSystemFont(ofSize: 18)
+        ]
+        UIApplication.shared.statusBarStyle = .lightContent
         return true
     }
 

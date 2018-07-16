@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		C048C65920FBC6A00074B5E0 /* Model.swift in Sources */ = {isa = PBXBuildFile; fileRef = C048C65820FBC6A00074B5E0 /* Model.swift */; };
 		C0B8DE2620FB3BED009CC871 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C0B8DE2520FB3BED009CC871 /* AppDelegate.swift */; };
 		C0B8DE2820FB3BED009CC871 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C0B8DE2720FB3BED009CC871 /* ViewController.swift */; };
 		C0B8DE2D20FB3BEE009CC871 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C0B8DE2C20FB3BEE009CC871 /* Assets.xcassets */; };
@@ -16,6 +17,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		C048C65820FBC6A00074B5E0 /* Model.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Model.swift; sourceTree = "<group>"; };
 		C0B8DE2220FB3BED009CC871 /* RSS Feed.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "RSS Feed.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		C0B8DE2520FB3BED009CC871 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		C0B8DE2720FB3BED009CC871 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -59,6 +61,7 @@
 				C0B8DE2520FB3BED009CC871 /* AppDelegate.swift */,
 				C0B8DE2720FB3BED009CC871 /* ViewController.swift */,
 				C0B8DE3720FB4006009CC871 /* Cells.swift */,
+				C048C65820FBC6A00074B5E0 /* Model.swift */,
 				C0B8DE3920FB4210009CC871 /* UIView+addConstraintsWithFormat.swift */,
 				C0B8DE2C20FB3BEE009CC871 /* Assets.xcassets */,
 				C0B8DE2E20FB3BEE009CC871 /* LaunchScreen.storyboard */,
@@ -137,6 +140,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C048C65920FBC6A00074B5E0 /* Model.swift in Sources */,
 				C0B8DE2820FB3BED009CC871 /* ViewController.swift in Sources */,
 				C0B8DE3820FB4006009CC871 /* Cells.swift in Sources */,
 				C0B8DE3A20FB4210009CC871 /* UIView+addConstraintsWithFormat.swift in Sources */,
